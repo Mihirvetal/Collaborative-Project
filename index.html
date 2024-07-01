@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="style.css">
     <style>
-         * {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
         .navbarmid {
             background-color: white;
-            display: flex; 
-            flex-flow: row; 
+            display: flex;
+            flex-flow: row;
             justify-content: center;
             display: flex;
             align-items: center;
@@ -96,6 +91,7 @@
                 'GRAD' 0,
                 'opsz' 24
         }
+
         .box {
             border-radius: 50px;
             color: white;
@@ -105,25 +101,69 @@
             border: none;
             margin-left: 1%;
         }
+        .card {
+            display: inline-block;
+            /* border: 1px solid; */
+            border-radius: 10px;
+            border-color: rgb(228, 225, 225);
+            margin: 10px;
 
-    </style>
-  <body>
-  <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#home">MORE BRANDS</a></li>
-                <div class="list_right">
-                   
-                    <li><a href="#"><i class="fa-solid fa-location-dot location-icon"></i> STORE</a></li>
-                    <li><a href="#contact"><i class="fa-regular fa-message msg-icon"></i> Contact US</a></li>
-                    <li><a class="active" href="#about"><i class="fa fa-fw fa-user user-icon"></i> LOG IN</a></li>
-                    <li><a class="active" href="#about"><i class="fa-regular fa-heart heart-icon"></i></a></li>
-                    <li><a class="active" href="#about"> <i class="fa-solid fa-bag-shopping shopping-icon"></i></a></li>
-                </div>
-              </ul>
-            
-        </div>
-    </nav>
+        }
+
+        .main {
+            display: inline-block;
+            margin-left: 7%;
+
+        }
+
+        .choice {
+            display: inline;
+
+        }
+
+        h3 {
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .heart {
+
+            position: absolute;
+            margin-left: 330px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .ribbon {
+            background-image: linear-gradient(285deg, rgb(46, 164, 224), rgb(49, 198, 132));
+            color: rgb(255, 255, 255);
+            position: absolute;
+            margin-top: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 6px;
+            font-size: smaller;
+            font-weight: bold;
+
+        }
+
+        .shoeimage {
+            height: 500px;
+            width: 390px;
+
+        }
+    </style></head>
+<body>
     <section>
         <nav class="navbarmid">
             <a href="reeboknav.html" class="rbk"><img
@@ -145,8 +185,7 @@
                     search</span>
 
                 <span>
-                    <input type="text"
-                        style="border:none; text-align:center; font-size: medium; padding-bottom: 10px;"
+                    <input type="text" style="border:none; text-align:center; font-size: medium; padding-bottom: 10px;"
                         placeholder="Search Shoes">
                 </span>
             </div>
@@ -166,8 +205,6 @@
 
 
     </section>
-
-    <script src="https://kit.fontawesome.com/d22d53dd15.js" crossorigin="anonymous"></script>
-
 </body>
+
 </html>
